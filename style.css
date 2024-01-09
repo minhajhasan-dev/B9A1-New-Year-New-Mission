@@ -156,7 +156,8 @@ main {
 
 /* new best offer section styles  */
 .new-best-offer-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
   gap: 50px;
@@ -164,8 +165,7 @@ main {
   margin: 0 auto;
   margin-bottom: 120px;
 }
-.new-best-offer-details {
-}
+
 .new-best-offer-details h3 {
   color: #f00;
   font-family: Inter;
