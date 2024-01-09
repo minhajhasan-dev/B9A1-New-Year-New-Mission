@@ -24,7 +24,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75.5%;
+  width: 82.5%;
 }
 
 .banner-greeting {
@@ -67,4 +67,48 @@ main {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 48px;
+}
+
+/* welcome party section style here  */
+.welcome-party-container {
+  margin-bottom: 120px;
+  background-image: url(./resources/Vectorrr.png);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+.welcome-party {
+  height: 600px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  width: 84%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 39.7px;
+}
+
+.welcome-party h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+.welcome-party p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.welcome-party a {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
 }
