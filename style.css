@@ -302,6 +302,11 @@ main {
   font-weight: 600;
   border: none;
 }
+.subscribe button:hover {
+  transition: 1s ease;
+  font-size: x-large;
+  background: #f6a012;
+}
 .sub_input {
   width: 648px;
   height: 72px;
