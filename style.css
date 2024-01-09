@@ -320,3 +320,56 @@ main {
   font-weight: 400;
   border: none;
 }
+/* footer section styles  */
+.footer-container {
+  width: 100%;
+  background: #070211;
+  height: 609px;
+  color: white;
+}
+.phone,
+.website {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.add-info {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  display: flex;
+  justify-content: space-around;
+  padding: 120px 0 50px;
+}
+hr {
+  background: rgba(255, 255, 255, 0.15);
+  width: 1320px;
+  height: 1px;
+  margin: 0 auto;
+  border: none;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+  gap: 24px;
+}
+.rights {
+  padding: 50px 0 120px;
+  display: flex;
+  justify-content: space-between;
+  width: 67%;
+  margin: 0 auto;
+}
+.rights p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.rights a {
+  text-decoration: none;
+  color: #fff;
+}
