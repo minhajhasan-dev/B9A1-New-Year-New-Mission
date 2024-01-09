@@ -153,6 +153,10 @@ main {
   font-weight: 700;
   border: none;
 }
+.party-join:hover {
+  transition: 1s ease;
+  background: #f6a012;
+}
 
 /* new best offer section styles  */
 .new-best-offer-container {
