@@ -11,9 +11,12 @@ main {
 .banner {
   margin: 50px auto 120px;
   background-image: url(./resources/Banner\ Image.png);
+  background-position: center;
   height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
+  justify-content: center;
 }
 .banner-content {
   border-radius: 16px;
@@ -21,7 +24,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 488px;
+  width: 75.5%;
 }
 
 .banner-greeting {
@@ -40,3 +43,28 @@ main {
 }
 
 /* offer section styles  */
+.offer-container {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.offer-off {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.offer-text {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.offer-catagory {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
